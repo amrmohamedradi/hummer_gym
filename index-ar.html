@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>هامر جيم - تدريب شخصي</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <h1>هامر جيم</h1>
+        </div>
+        <div class="nav-links">
+          <a href="#home">الرئيسية</a>
+          <a href="#about">عني</a>
+          <a href="#plans">الخطط</a>
+          <a href="#contact">اتصل بنا</a>
+          <button class="lang-switch" aria-label="تغيير اللغة">
+            <span class="lang-icon en">
+              <img src="images/uk-flag.svg" alt="" class="flag-icon" />
+              EN
+            </span>
+            <span class="lang-icon ar">
+              <img src="images/eg-flag.svg" alt="" class="flag-icon" />
+              ع
+            </span>
+          </button>
+        </div>
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1"
+          alt="محمد دمرداش"
+          class="trainer-image"
+        />
+      </div>
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <h1>حول جسمك، حول حياتك</h1>
+            <p>تدريب شخصي احترافي مصمم لأهدافك</p>
+            <a href="#contact" class="cta-button">ابدأ رحلتك</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>عني</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="images/about-mohamed.jpg" alt="محمد دمرداش" />
+          </div>
+          <div class="about-text">
+            <h3>محمد دمرداش</h3>
+            <p>
+              مع أكثر من 10 سنوات من الخبرة في التدريب الشخصي، ساعدت المئات من
+              العملاء في تحقيق أهدافهم في اللياقة البدنية. نهجي يجمع بين مبادئ
+              التدريب العلمية والاهتمام الشخصي لضمان حصولك على أفضل النتائج
+              الممكنة.
+            </p>
+            <div class="certifications">
+              <h4>الشهادات</h4>
+              <ul>
+                <li>مدرب شخصي معتمد (CPT)</li>
+                <li>أخصائي تغذية</li>
+                <li>مدرب قوة وتكييف</li>
+                <li>مدرب كروس فت المستوى 2</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="plans">
+      <div class="container">
+        <h2>خطط التدريب</h2>
+        <div class="plans-grid">
+          <div class="plan-card">
+            <img
+              src="images/plan1.jpg"
+              alt="الخطة الأساسية"
+              class="plan-image"
+            />
+            <h3>الخطة الأساسية</h3>
+            <div class="price">$50<span>/شهر</span></div>
+            <ul>
+              <li><i class="fas fa-check"></i> جلستان أسبوعياً</li>
+              <li><i class="fas fa-check"></i> دليل تغذية أساسي</li>
+              <li><i class="fas fa-check"></i> تتبع التقدم</li>
+            </ul>
+            <a href="https://wa.me/1234567890" class="whatsapp-button">
+              <i class="fab fa-whatsapp"></i> تواصل عبر واتساب
+            </a>
+          </div>
+          <div class="plan-card featured">
+            <img
+              src="images/plan2.jpg"
+              alt="الخطة المميزة"
+              class="plan-image"
+            />
+            <h3>الخطة المميزة</h3>
+            <div class="price">$80<span>/شهر</span></div>
+            <ul>
+              <li><i class="fas fa-check"></i> 3 جلسات أسبوعياً</li>
+              <li><i class="fas fa-check"></i> خطط غذائية مخصصة</li>
+              <li><i class="fas fa-check"></i> دعم واتساب 24/7</li>
+              <li><i class="fas fa-check"></i> تحليل جسم شهري</li>
+            </ul>
+            <a href="https://wa.me/1234567890" class="whatsapp-button">
+              <i class="fab fa-whatsapp"></i> تواصل عبر واتساب
+            </a>
+          </div>
+          <div class="plan-card">
+            <img src="images/plan3.jpg" alt="الخطة النخبة" class="plan-image" />
+            <h3>خطة النخبة</h3>
+            <div class="price">$120<span>/شهر</span></div>
+            <ul>
+              <li><i class="fas fa-check"></i> 5 جلسات أسبوعياً</li>
+              <li><i class="fas fa-check"></i> تدريب تغذية متميز</li>
+              <li><i class="fas fa-check"></i> جدولة ذات أولوية</li>
+              <li><i class="fas fa-check"></i> استشارات أسبوعية</li>
+            </ul>
+            <a href="https://wa.me/1234567890" class="whatsapp-button">
+              <i class="fab fa-whatsapp"></i> تواصل عبر واتساب
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>اعثر علي هنا</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.8103866008945!2d31.328145776536875!2d29.95161042010453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458369d0e9e7c27%3A0x5e67ca81ad1c43c9!2sFirst%20New%20Cairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1709913245840!5m2!1sen!2seg"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="map-overlay">
+            <h3>صالة MD للياقة البدنية</h3>
+            <p>التجمع الأول، القاهرة الجديدة، القاهرة، مصر</p>
+            <a
+              href="https://maps.app.goo.gl/HLQw5LZH8YGmZS8y7"
+              target="_blank"
+              class="map-button"
+            >
+              احصل على الاتجاهات
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>هامر جيم</h2>
+            <p>حول جسمك، حول حياتك</p>
+          </div>
+          <div class="footer-links">
+            <h3>روابط سريعة</h3>
+            <a href="#home"><i class="fas fa-chevron-left"></i> الرئيسية</a>
+            <a href="#about"><i class="fas fa-chevron-left"></i> عني</a>
+            <a href="#plans"><i class="fas fa-chevron-left"></i> الخطط</a>
+            <a href="#contact"><i class="fas fa-chevron-left"></i> اتصل بنا</a>
+          </div>
+          <div class="footer-social">
+            <h3>تابعني</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-contact">
+              <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+              <p><i class="fas fa-envelope"></i> info@hummergym.com</p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> التجمع الأول، القاهرة
+                الجديدة، القاهرة، مصر
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 Hummer Gym جميع الحقوق محفوظة.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
